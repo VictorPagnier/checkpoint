@@ -1,6 +1,6 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import GameDetails from '../components/GameDetails';
+import GameDetails from './GameDetails';
 import GameForm from '../components/GameForm';
 
 function DeleteGame() {
@@ -10,10 +10,10 @@ function DeleteGame() {
     navigate('/');
   };
   return (
-    <div>
+    <>
       <GameDetails />
       <GameForm buttonAction={onBackTohome} deleteGame />
-    </div>
+    </>
   );
 }
 

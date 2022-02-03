@@ -77,6 +77,7 @@ function GameForm({
           onChange={(event) => updateGame(event.target.value, 'name')}
         />
       </label>
+
       <label htmlFor="description">
         <textarea
           className="text-black w-80 rounded-lg placeholder:pl-4"
@@ -85,6 +86,7 @@ function GameForm({
           onChange={(event) => updateGame(event.target.value, 'description')}
         />
       </label>
+
       <label htmlFor="genre">
         <input
           className="text-black w-80 rounded-lg placeholder:pl-4"
@@ -94,6 +96,7 @@ function GameForm({
           onChange={(event) => updateGame(event.target.value, 'genre')}
         />
       </label>
+
       <label htmlFor="image">
         <input
           className="text-black w-80 rounded-lg placeholder:pl-4"

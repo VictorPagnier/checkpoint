@@ -18,7 +18,7 @@ function ScrollCategories() {
             <Link to={`/categories/${categorie.id}/${categorie.id}`}>
               <div className="flex justify-evenly items-center shrink-0 w-auto h-20 w-40 rounded-lg shadow-xl bg-zinc-800 sm:h-20">
                 <img className="h-10 p-2 w-auto bg-white rounded-lg" src={categorie.image} alt={categorie.description} />
-                <p className="text-white font-medium pb-5">{categorie.name}</p>
+                <p className="transition ease-in-out delay-150 text-white hover:-translate-y-1 hover:scale-200 hover:text-yellow-400 duration-300 font-medium pb-5">{categorie.name}</p>
               </div>
             </Link>
           </div>

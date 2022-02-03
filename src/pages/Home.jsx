@@ -5,11 +5,11 @@ import ScrollPopular from '../components/ScrollPopular';
 
 function Home() {
   return (
-    <div>
+    <>
       <Header />
       <ScrollPopular />
       <ScrollCategories />
-    </div>
+    </>
   );
 }
 
